@@ -227,10 +227,10 @@ class _VerifyOTPScreenState extends State<VerifyOTPScreen> with CodeAutoFill{
                 TextButton(
                   onPressed: _timerDuration > 0 ? null : resendOtp, // Disable if timer is running
                   child:  Text(_timerDuration > 0 ? "Resend New Code ($_timerDuration s)" : "Resend New Code",
-                    style: const TextStyle(
+                    style:  TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.bold,
-                      color: Colors.purple,
+                      color: _timerDuration > 0 ? Colors.grey : widget.buttonColor,
                     ),
                     textAlign: TextAlign.center,
                   ),

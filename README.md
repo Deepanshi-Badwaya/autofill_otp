@@ -37,7 +37,7 @@ buttonColor: Colors.blue,
 - buttonColor: Color of the verification button.
 
 # Integration
-Add sms_autofill: ^2.3.0 package to your pubspec.yaml to get the application id for the mobile number and also this  autofill_otp: ^1.0.0
+Add sms_autofill: ^2.3.0 package to your pubspec.yaml to get the application id for the mobile number and also this  autofill_otp: ^1.0.1
 
 ```yaml
 dependencies:
@@ -90,7 +90,7 @@ To use this package, add `autofill_otp` as a dependency in your `pubspec.yaml` f
 
 ```yaml
 dependencies:
-  autofill_otp: ^1.0.0
+  autofill_otp: ^1.0.1
 ```
 
 ## Additional information
