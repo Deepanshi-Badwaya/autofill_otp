@@ -1,4 +1,4 @@
-# SMS OTP VVerification Service for Flutter
+# SMS OTP Verification Service for Flutter
 # autofill_otp
 The `autofill_otp` package provides a Flutter widget for OTP (One-Time Password) verification, with SMS autofill functionality.
 
