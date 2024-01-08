@@ -1,7 +1,7 @@
 name: autofill_otp
 description: "A Flutter package for auto fill sms otp"
 version: 1.0.0
-homepage:
+homepage: https://github.com/Deepanshi-Badwaya/autofill_otp.git
 
 environment:
   sdk: '>=3.2.3 <4.0.0'
